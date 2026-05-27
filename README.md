@@ -1,14 +1,13 @@
 # Secure Task Management Application (secure-task-app)
 
-An implementation of an injection-free, role-based Task Management web application built using secure-by-design architectural paradigms. This project serves as the primary assessment milestone for **IKB 21503: Secure Software Development** at UniKL MIIT.
+An implementation of an injection-free, role-based Task Management web application built using secure-by-design architectural paradigms. This project serves as the major assessment for **IKB 21503: Secure Software Development** at UniKL MIIT.
 
 
 
 ## 1. Project Description
 The **Secure Task Management Application** is a collaborative system for managing workflows, task assignments and tracking progress securely. This application is build using the Python **Django** framework and focuses on addressing OWASP Top 10 vulnerabilities. 
 
-Rather than relying purely on passive framework automation, this system actively integrates robust input sanitization pipelines, strict multi-tenant data boundaries, structural session security, and continuous third-party vulnerability remediation to guarantee the confidentiality, integrity, and availability of system state profiles.
-
+Rather than relying purely on passive framework automation, this system actively integrates robust input sanitization pipelines, strict multi-tenant data boundaries, structural session security and continuous third-party vulnerability remediation to guarantee the confidentiality, integrity, and availability of system state profiles.
 
 
 ## 2. Installation Steps
