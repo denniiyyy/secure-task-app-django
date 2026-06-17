@@ -38,7 +38,7 @@ def login_view(request):
             log_audit(None, 'LOGIN_FAILED', request, f'Failed login attempt for {username}')
             messages.error(request, 'Invalid username or password')
     return render(request, 'tasks/login.html')
-
+"""
 def register_view(request):
     if request.method == 'POST':
         username = request.POST.get('username')
@@ -96,7 +96,7 @@ def register_view(request):
     else:
         form = RegisterForm()
     return render(request, 'tasks/register.html', {'form': form})
-"""
+
 @login_required
 def logout_view(request):
     log_audit(request.user, 'LOGOUT', request)

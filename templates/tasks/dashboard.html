@@ -446,12 +446,12 @@
 
                     {% for task in tasks %}
                         <tr>
-                            <td style="font-weight: 600;">
+                            <!--<td style="font-weight: 600;">
                                 {% autoescape off %}
                                     {{ task.title }}
                                 {% endautoescape %}
-                            </td>
-                            
+                            </td>-->
+                            <td style="font-weight: 600;">{{ task.title }}</td>
                             <td style="color: #6b7280;">{{ task.description|truncatechars:50 }}</td>
                             <td>
                                 <span class="task-status status-{{ task.status }}">
