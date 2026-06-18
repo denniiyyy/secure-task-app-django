@@ -52,7 +52,10 @@ Core packages include:
    ```bash
    python manage.py runserver
    ```
-
+## Admin Credentials
+   username: `admin1`
+   password: `Admin123!`
+   
 ## System Screenshots
 
  <img width="1857" height="991" alt="image" src="https://github.com/user-attachments/assets/a630b10a-1712-4ce1-bec8-0928ec9e4383" />
